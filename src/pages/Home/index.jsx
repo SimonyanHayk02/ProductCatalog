@@ -15,6 +15,7 @@ const Home = () => {
     filterOptions,
     handleFilterChange,
     clearFilters,
+    clearFiltersAndUrl,
     isFiltering,
     isTyping,
   } = useProductFilters(products);
@@ -89,7 +90,7 @@ const Home = () => {
             <FiltersSidebar
               filters={filters}
               onFilterChange={handleFilterChange}
-              onClearFilters={clearFilters}
+              onClearFilters={clearFiltersAndUrl}
               categories={filterOptions.categories}
               brands={filterOptions.brands}
               prices={[
@@ -119,7 +120,7 @@ const Home = () => {
                     filters={filters}
                     onFilterChange={handleFilterChange}
                     onClearFilters={() => {
-                      clearFilters();
+                      clearFiltersAndUrl();
                       closeMobileFilter();
                     }}
                     categories={filterOptions.categories}
@@ -149,7 +150,7 @@ const Home = () => {
 
             <ProductsGrid
               products={filteredProducts}
-              onClearFilters={clearFilters}
+              onClearFilters={clearFiltersAndUrl}
               isFiltering={isFiltering}
               isTyping={isTyping}
               totalCount={productStats.total}

@@ -7,6 +7,7 @@ import {
 } from "../utils/filterHelpers";
 import { DEFAULT_FILTERS } from "../constants/filters";
 import { useDebounce } from "./useDebounce";
+import { useUrlSync } from "./useUrlSync";
 
 export const useProductFilters = (products) => {
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
@@ -19,6 +20,12 @@ export const useProductFilters = (products) => {
   const debouncedSearch = useDebounce(filters.search, 500);
   const debouncedMinPrice = useDebounce(filters.minPrice, 300);
   const debouncedMaxPrice = useDebounce(filters.maxPrice, 300);
+
+  const clearFilters = useCallback(() => {
+    setFilters(DEFAULT_FILTERS);
+  }, []);
+
+  const { clearFiltersAndUrl } = useUrlSync(filters, setFilters, clearFilters);
 
   const filterOptions = useMemo(() => {
     if (!products || products.length === 0) {
@@ -91,10 +98,6 @@ export const useProductFilters = (products) => {
     });
   }, []);
 
-  const clearFilters = useCallback(() => {
-    setFilters(DEFAULT_FILTERS);
-  }, []);
-
   const isTyping = useMemo(() => {
     return (
       filters.search !== debouncedSearch ||
@@ -123,6 +126,7 @@ export const useProductFilters = (products) => {
     filterOptions,
     handleFilterChange,
     clearFilters,
+    clearFiltersAndUrl,
     ...loadingState,
   };
 };
