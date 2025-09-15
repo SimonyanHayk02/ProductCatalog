@@ -2,7 +2,6 @@
 
 A high-performance, responsive React-based product catalog with advanced filtering, sorting, and virtualization capabilities. Built with modern web technologies and comprehensive test coverage.
 
-
 ## ✨ Features
 
 ### 🔍 Advanced Filtering System
@@ -13,6 +12,8 @@ A high-performance, responsive React-based product catalog with advanced filteri
 - **Price Range**: Min/max price filtering
 - **Rating Filter**: Filter by minimum rating
 - **Combined Filters**: Multiple filters work together seamlessly
+- **URL Persistence**: Filter state persists across page refreshes
+- **Shareable URLs**: Bookmark and share filtered product views
 
 ### 📊 Smart Sorting
 
@@ -28,6 +29,15 @@ A high-performance, responsive React-based product catalog with advanced filteri
 - **Debounced Search**: Optimized search performance
 - **Memoization**: React.memo for component optimization
 - **Lazy Loading**: Efficient data loading
+
+### 🔗 URL State Management
+
+- **Query Parameters**: Filter state stored in URL
+- **Browser History**: Back/forward navigation support
+- **Deep Linking**: Direct access to filtered views
+- **SEO Friendly**: Search engines can index filtered pages
+- **Shareable Links**: Send filtered product lists to others
+- **Bookmarkable**: Save specific filter combinations
 
 ### 📱 Responsive Design
 
@@ -130,9 +140,11 @@ src/
 │   ├── useDebounce.js   # Search debouncing
 │   ├── useMobileFilter.js # Mobile filter state
 │   ├── useProductFilters.js # Main filtering logic
-│   └── useProducts.js   # Product data management
+│   ├── useProducts.js   # Product data management
+│   └── useUrlSync.js    # URL synchronization
 ├── utils/               # Utility functions
 │   ├── filterHelpers.js # Filtering and sorting logic
+│   ├── urlParams.js     # URL parameter management
 │   └── performanceMonitor.js # Performance utilities
 ├── constants/           # Application constants
 │   └── filters.js       # Filter configuration
