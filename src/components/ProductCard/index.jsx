@@ -16,12 +16,6 @@ const ProductCard = memo(({ product }) => {
             {product.category}
           </span>
         </div>
-
-        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-500 flex items-center justify-center opacity-0 group-hover:opacity-100">
-          <button className="bg-white/90 backdrop-blur-sm text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-white hover:scale-105 transition-all duration-300 shadow-xl">
-            Quick View
-          </button>
-        </div>
       </div>
 
       <div className="p-4 sm:p-6 lg:p-8">
@@ -61,22 +55,27 @@ const ProductCard = memo(({ product }) => {
             </span>
             <span className="text-xs text-gray-500 font-normal">per item</span>
           </div>
-          <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg font-medium text-xs sm:text-sm hover:from-blue-600 hover:to-purple-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105 flex items-center space-x-1 sm:space-x-1.5">
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+          <div className="flex flex-col items-end">
+            <button
+              disabled
+              className="bg-gray-300 text-gray-500 px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg font-medium text-xs sm:text-sm cursor-not-allowed flex items-center space-x-1 sm:space-x-1.5"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.8 3.6a.8.8 0 00.8 1.2h9m-6 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
-              />
-            </svg>
-            <span>Add</span>
-          </button>
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.8 3.6a.8.8 0 00.8 1.2h9m-6 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
+                />
+              </svg>
+              <span>Add</span>
+            </button>
+          </div>
         </div>
 
         <div className="mt-6 pt-4 border-t border-gray-100">
@@ -95,7 +94,7 @@ const ProductCard = memo(({ product }) => {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              In Stock
+              will be available in 2 days
             </span>
             <span className="flex items-center font-medium">
               <svg
