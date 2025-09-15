@@ -2,7 +2,6 @@
 
 A high-performance, responsive React-based product catalog with advanced filtering, sorting, and virtualization capabilities. Built with modern web technologies and comprehensive test coverage.
 
-![Product Catalog Demo](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Product+Catalog+Demo)
 
 ## ✨ Features
 
