@@ -1,0 +1,497 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "brand": "Brand A",
+    "price": 99.99,
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "brand": "Brand B",
+    "price": 49.99,
+    "rating": 4.0,
+    "imageUrl": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "brand": "Brand C",
+    "price": 59.99,
+    "rating": 4.2,
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 4,
+    "name": "Smartphone",
+    "category": "Electronics",
+    "brand": "Brand D",
+    "price": 499.99,
+    "rating": 4.8,
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 5,
+    "name": "Leather Jacket",
+    "category": "Clothing",
+    "brand": "Brand E",
+    "price": 199.99,
+    "rating": 4.7,
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 6,
+    "name": "Gaming Laptop",
+    "category": "Electronics",
+    "brand": "Brand F",
+    "price": 1299.99,
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 7,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "brand": "Brand A",
+    "price": 29.99,
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 8,
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "brand": "Brand G",
+    "price": 89.99,
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 9,
+    "name": "Fitness Tracker",
+    "category": "Electronics",
+    "brand": "Brand H",
+    "price": 79.99,
+    "rating": 4.1,
+    "imageUrl": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 10,
+    "name": "Coffee Maker",
+    "category": "Appliances",
+    "brand": "Brand I",
+    "price": 149.99,
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 11,
+    "name": "Denim Jeans",
+    "category": "Clothing",
+    "brand": "Brand J",
+    "price": 69.99,
+    "rating": 4.2,
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 12,
+    "name": "Sneakers",
+    "category": "Footwear",
+    "brand": "Brand K",
+    "price": 89.99,
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 13,
+    "name": "Tablet",
+    "category": "Electronics",
+    "brand": "Brand L",
+    "price": 399.99,
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 14,
+    "name": "Desk Lamp",
+    "category": "Furniture",
+    "brand": "Brand M",
+    "price": 39.99,
+    "rating": 4.0,
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 15,
+    "name": "Backpack",
+    "category": "Accessories",
+    "brand": "Brand N",
+    "price": 49.99,
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 16,
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "brand": "Brand O",
+    "price": 299.99,
+    "rating": 4.7,
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 17,
+    "name": "T-Shirt",
+    "category": "Clothing",
+    "brand": "Brand P",
+    "price": 19.99,
+    "rating": 4.1,
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 18,
+    "name": "Monitor",
+    "category": "Electronics",
+    "brand": "Brand Q",
+    "price": 249.99,
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 19,
+    "name": "Office Chair",
+    "category": "Furniture",
+    "brand": "Brand R",
+    "price": 199.99,
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 20,
+    "name": "Water Bottle",
+    "category": "Accessories",
+    "brand": "Brand S",
+    "price": 24.99,
+    "rating": 4.2,
+    "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 21,
+    "name": "Camera",
+    "category": "Electronics",
+    "brand": "Brand T",
+    "price": 599.99,
+    "rating": 4.8,
+    "imageUrl": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 22,
+    "name": "Hoodie",
+    "category": "Clothing",
+    "brand": "Brand U",
+    "price": 59.99,
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 23,
+    "name": "Sandals",
+    "category": "Footwear",
+    "brand": "Brand V",
+    "price": 34.99,
+    "rating": 4.0,
+    "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 24,
+    "name": "Blender",
+    "category": "Appliances",
+    "brand": "Brand W",
+    "price": 79.99,
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1585515656519-0b9b5b0b5b0b?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 25,
+    "name": "Laptop Stand",
+    "category": "Accessories",
+    "brand": "Brand X",
+    "price": 29.99,
+    "rating": 4.1,
+    "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 26,
+    "name": "Gaming Headset",
+    "category": "Electronics",
+    "brand": "Brand Y",
+    "price": 129.99,
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 27,
+    "name": "Dress",
+    "category": "Clothing",
+    "brand": "Brand Z",
+    "price": 79.99,
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 28,
+    "name": "Boots",
+    "category": "Footwear",
+    "brand": "Brand AA",
+    "price": 119.99,
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 29,
+    "name": "Microwave",
+    "category": "Appliances",
+    "brand": "Brand BB",
+    "price": 199.99,
+    "rating": 4.2,
+    "imageUrl": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 30,
+    "name": "Desk Organizer",
+    "category": "Furniture",
+    "brand": "Brand CC",
+    "price": 19.99,
+    "rating": 4.0,
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 31,
+    "name": "Phone Case",
+    "category": "Accessories",
+    "brand": "Brand DD",
+    "price": 14.99,
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 32,
+    "name": "VR Headset",
+    "category": "Electronics",
+    "brand": "Brand EE",
+    "price": 399.99,
+    "rating": 4.7,
+    "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 33,
+    "name": "Sweater",
+    "category": "Clothing",
+    "brand": "Brand FF",
+    "price": 49.99,
+    "rating": 4.2,
+    "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 34,
+    "name": "Flip Flops",
+    "category": "Footwear",
+    "brand": "Brand GG",
+    "price": 19.99,
+    "rating": 3.9,
+    "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 35,
+    "name": "Toaster",
+    "category": "Appliances",
+    "brand": "Brand HH",
+    "price": 39.99,
+    "rating": 4.1,
+    "imageUrl": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 36,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "brand": "Brand II",
+    "price": 89.99,
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 37,
+    "name": "Wallet",
+    "category": "Accessories",
+    "brand": "Brand JJ",
+    "price": 29.99,
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 38,
+    "name": "Drone",
+    "category": "Electronics",
+    "brand": "Brand KK",
+    "price": 799.99,
+    "rating": 4.8,
+    "imageUrl": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 39,
+    "name": "Shorts",
+    "category": "Clothing",
+    "brand": "Brand LL",
+    "price": 24.99,
+    "rating": 4.0,
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 40,
+    "name": "High Heels",
+    "category": "Footwear",
+    "brand": "Brand MM",
+    "price": 89.99,
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 41,
+    "name": "Air Fryer",
+    "category": "Appliances",
+    "brand": "Brand NN",
+    "price": 149.99,
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 42,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "brand": "Brand OO",
+    "price": 299.99,
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 43,
+    "name": "Sunglasses",
+    "category": "Accessories",
+    "brand": "Brand PP",
+    "price": 39.99,
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 44,
+    "name": "Projector",
+    "category": "Electronics",
+    "brand": "Brand QQ",
+    "price": 499.99,
+    "rating": 4.7,
+    "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 45,
+    "name": "Coat",
+    "category": "Clothing",
+    "brand": "Brand RR",
+    "price": 149.99,
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 46,
+    "name": "Slippers",
+    "category": "Footwear",
+    "brand": "Brand SS",
+    "price": 14.99,
+    "rating": 3.8,
+    "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 47,
+    "name": "Rice Cooker",
+    "category": "Appliances",
+    "brand": "Brand TT",
+    "price": 59.99,
+    "rating": 4.2,
+    "imageUrl": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 48,
+    "name": "Sofa",
+    "category": "Furniture",
+    "brand": "Brand UU",
+    "price": 599.99,
+    "rating": 4.8,
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 49,
+    "name": "Watch",
+    "category": "Accessories",
+    "brand": "Brand VV",
+    "price": 199.99,
+    "rating": 4.7,
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 50,
+    "name": "Gaming Console",
+    "category": "Electronics",
+    "brand": "Brand WW",
+    "price": 499.99,
+    "rating": 4.9,
+    "imageUrl": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 51,
+    "name": "Tank Top",
+    "category": "Clothing",
+    "brand": "Brand XX",
+    "price": 12.99,
+    "rating": 3.9,
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 52,
+    "name": "Loafers",
+    "category": "Footwear",
+    "brand": "Brand YY",
+    "price": 79.99,
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 53,
+    "name": "Slow Cooker",
+    "category": "Appliances",
+    "brand": "Brand ZZ",
+    "price": 69.99,
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 54,
+    "name": "Bed Frame",
+    "category": "Furniture",
+    "brand": "Brand AAA",
+    "price": 399.99,
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    "id": 55,
+    "name": "Belt",
+    "category": "Accessories",
+    "brand": "Brand BBB",
+    "price": 34.99,
+    "rating": 4.1,
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop&crop=center"
+  }
+]
