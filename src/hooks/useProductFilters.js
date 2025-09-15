@@ -17,6 +17,8 @@ export const useProductFilters = (products) => {
   const isInitialRender = useRef(true);
 
   const debouncedSearch = useDebounce(filters.search, 500);
+  const debouncedMinPrice = useDebounce(filters.minPrice, 300);
+  const debouncedMaxPrice = useDebounce(filters.maxPrice, 300);
 
   const filterOptions = useMemo(() => {
     if (!products || products.length === 0) {
@@ -37,16 +39,24 @@ export const useProductFilters = (products) => {
   const processedProducts = useMemo(() => {
     if (!products || products.length === 0) return [];
 
-    const filtersWithDebouncedSearch = {
+    const filtersWithDebouncedValues = {
       ...filters,
       search: debouncedSearch,
+      minPrice: debouncedMinPrice,
+      maxPrice: debouncedMaxPrice,
     };
 
-    const filtered = filterProducts(products, filtersWithDebouncedSearch);
+    const filtered = filterProducts(products, filtersWithDebouncedValues);
     const sorted = sortProducts(filtered, filters.sortBy);
 
     return sorted;
-  }, [products, filters, debouncedSearch]);
+  }, [
+    products,
+    filters,
+    debouncedSearch,
+    debouncedMinPrice,
+    debouncedMaxPrice,
+  ]);
 
   useEffect(() => {
     if (isInitialRender.current) {
@@ -86,8 +96,19 @@ export const useProductFilters = (products) => {
   }, []);
 
   const isTyping = useMemo(() => {
-    return filters.search !== debouncedSearch;
-  }, [filters.search, debouncedSearch]);
+    return (
+      filters.search !== debouncedSearch ||
+      filters.minPrice !== debouncedMinPrice ||
+      filters.maxPrice !== debouncedMaxPrice
+    );
+  }, [
+    filters.search,
+    debouncedSearch,
+    filters.minPrice,
+    debouncedMinPrice,
+    filters.maxPrice,
+    debouncedMaxPrice,
+  ]);
 
   const loadingState = useMemo(() => {
     return {
